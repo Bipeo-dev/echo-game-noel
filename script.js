@@ -81,7 +81,7 @@ function updateUI() {
 // FEEDBACK QUAND ON CLIQUE SUR LE CHAT LA
 function showFeedback(cat) {
   const img = document.createElement('img')
-  img.src = '/assets/img/explosion.gif'
+  img.src = 'assets/img/explosion.gif'
 
   img.style.width = '100px'
   img.style.height = '100px'
@@ -100,7 +100,7 @@ function showFeedback(cat) {
 // FEEDPACK QUAND ON SE TROMPE LOOOOOOSER
 function showWrongClickFeedback(x, y) {
   const img = document.createElement('img')
-  img.src = '/assets/img/incorrect.png'
+  img.src = 'assets/img/incorrect.png'
 
   img.style.width = '60px'
   img.style.height = '60px'
