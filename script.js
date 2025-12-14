@@ -20,25 +20,25 @@ const SECOND_CAT_GAME_TIME = 60
 
 // LE SON
 const explosionSound = new Howl({
-  src: ['assets/sound/explosion_speed.mp3'],
+  src: ['./assets/sound/explosion_speed.mp3'],
   volume: 0.1,
   preload: true
 })
 
 const wrongSound = new Howl({
-  src: ['assets/sound/wrong.mp3'],
+  src: ['./assets/sound/wrong.mp3'],
   volume: 0.1,
   preload: true
 })
 
 const loseSound = new Howl({
-  src: ['assets/sound/lose.mp3'],
+  src: ['./assets/sound/lose.mp3'],
   volume: 0.1,
   preload: true
 })
 
 const gameMusic = new Howl({
-  src: ['assets/sound/music.mp3'],
+  src: ['./assets/sound/music.mp3'],
   volume: 0.1,
   preload: true,
   loop: true
@@ -81,7 +81,7 @@ function updateUI() {
 // FEEDBACK QUAND ON CLIQUE SUR LE CHAT LA
 function showFeedback(cat) {
   const img = document.createElement('img')
-  img.src = 'assets/img/explosion.gif'
+  img.src = './assets/img/explosion.gif'
 
   img.style.width = '100px'
   img.style.height = '100px'
@@ -100,7 +100,7 @@ function showFeedback(cat) {
 // FEEDPACK QUAND ON SE TROMPE LOOOOOOSER
 function showWrongClickFeedback(x, y) {
   const img = document.createElement('img')
-  img.src = 'assets/img/incorrect.png'
+  img.src = './assets/img/incorrect.png'
 
   img.style.width = '60px'
   img.style.height = '60px'
